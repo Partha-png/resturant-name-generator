@@ -21,41 +21,31 @@ Streamlit
 
 Steps
 Clone the repository:
-
-bash
-Copy
-Edit
-git clone <repo_url>
-cd <repo_folder>
-Install dependencies:
-
-bash
-Copy
-Edit
+```
+git clone https://github.com/Partha-png/resturant-name-generator.git
+```
+2.Install dependencies:
+```
 pip install -r requirements.txt
+```
 Set up your OpenAI API Key:
 
 Create a file openai_key.py and define:
-
-python
-Copy
-Edit
+```
 openai_key = "your_openai_api_key"
+```
 Run the Streamlit app:
-
-bash
-Copy
-Edit
+```
 streamlit run main.py
+```
 Project Structure
-graphql
-Copy
-Edit
+```
 📂 project-folder/
 │-- main.py                # Streamlit app interface
 │-- langchain_code.py       # Handles LangChain-based name & menu generation
 │-- openai_key.py           # Stores OpenAI API Key (not to be shared)
 │-- requirements.txt        # Dependencies
+```
 Usage
 Open the app in your browser.
 
